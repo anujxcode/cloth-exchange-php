@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Playfair+Display:wght@400;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,800&display=swap');
+*{
+    font-family: 'poppins' , sans-serif !important;
+}
+
+.navbar{
+    padding: 15px!important;
+    background:#f4f4f4 !important ;
+    position: fixed;
+    top:0;right:0;left:0;
+    z-index: 10;
+}
+.hero-banner{
+    /* background:url('../images/hero.jpg'); */
+    background:linear-gradient(rgba(73, 101, 228, 0.7) ,rgba(194, 59, 235, 0.8) ),url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text h1{
+    font-family: 'Playfair Display', serif !important;
+}
+
+
+.small-form{
+    transform: scale(0.7) !important;
+    width: 40% !important;
+    margin: auto !important;
+}
+.login-page{
+    position:absolute;
+    top:50%;left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* profile css */
+
+.profile-info{
+    padding-top: 100px;
+    background:#161623;
+    height: 100vh;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+}
+.profile-info h3{
+    color:#fff;
+   
+}
+.profile-info p{
+    color:#dadada;
+   
+}
+.profile-info h3 span{ 
+    background:#ff007f;
+    color:#fff;
+    font-weight: 400;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.pro-pic-bx{
+    width:150px;
+    height:150px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.pro-pic-bx img{
+    width:100%;
+}
+.about-heading{
+    margin-top: 70px;
+    font-size: 64px;
+    color:#53565a;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif !important;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:960px){
+    .hero-text{
+        width:85%;
+        margin:auto;
+    }
+    .small-form{
+        transform: scale(0.7) !important;
+        width: 85% !important;
+        margin: auto !important;
+    }
+}
+@media(max-width:560px){
+   
+    .small-form{
+        transform: scale(0.7) !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+}
