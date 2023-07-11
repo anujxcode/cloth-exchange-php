@@ -36,16 +36,27 @@ After checking their old clothes our delivery person hand over the produc.
 - Change Password
 
 ###### User Module
-updating......
+- Create Account
+- View Product
+- Exchange clothes by selecting a product
+- place order
+- Edit profile
+- Edit date of pickup
 
 ###### Admin Module
-updating......
+- Manage Orders
+- Manage Product
+- Manage upload products
+- Manage Users
+- Manage Whole webiste
   
  
 ## How to Run this project in your pc
 #### Install Xampp
-updating.....
-
+- Install Xammp run appache server and MySQL
+- type on browser localhost Go to MyPhpAdmin
+- Import Database
+- there you go...
 
 
 # UI/UX Design
